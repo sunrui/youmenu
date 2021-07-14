@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DD9651418F6F79A006529B0 /* liblog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD9651318F6F791006529B0 /* liblog.a */; };
+		7DD9651818F6F819006529B0 /* log_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9651718F6F819006529B0 /* log_test.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DD9651218F6F791006529B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DD9650E18F6F791006529B0 /* log.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7D9EFE7418F6E16400A51752;
+			remoteInfo = log;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D9EFF7F18F6E9B000A51752 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D9EFF8118F6E9B000A51752 /* log_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = log_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9EFF9918F6EB6B00A51752 /* liblog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblog.a; path = ../log/build/Debug/liblog.a; sourceTree = "<group>"; };
+		7DD9650E18F6F791006529B0 /* log.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = log.xcodeproj; path = ../log/log.xcodeproj; sourceTree = "<group>"; };
+		7DD9651718F6F819006529B0 /* log_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = log_test.c; path = ../../../sample/log_test.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D9EFF7E18F6E9B000A51752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD9651418F6F79A006529B0 /* liblog.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D9EFF7818F6E9B000A51752 = {
+			isa = PBXGroup;
+			children = (
+				7DD9651718F6F819006529B0 /* log_test.c */,
+				7DD9650E18F6F791006529B0 /* log.xcodeproj */,
+				7D9EFF9918F6EB6B00A51752 /* liblog.a */,
+				7D9EFF8218F6E9B000A51752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D9EFF8218F6E9B000A51752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D9EFF8118F6E9B000A51752 /* log_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DD9650F18F6F791006529B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DD9651318F6F791006529B0 /* liblog.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D9EFF8018F6E9B000A51752 /* log_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9EFF8A18F6E9B000A51752 /* Build configuration list for PBXNativeTarget "log_test" */;
+			buildPhases = (
+				7D9EFF7D18F6E9B000A51752 /* Sources */,
+				7D9EFF7E18F6E9B000A51752 /* Frameworks */,
+				7D9EFF7F18F6E9B000A51752 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = log_test;
+			productName = log_test;
+			productReference = 7D9EFF8118F6E9B000A51752 /* log_test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D9EFF7918F6E9B000A51752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = www.honeysense.com;
+			};
+			buildConfigurationList = 7D9EFF7C18F6E9B000A51752 /* Build configuration list for PBXProject "log_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D9EFF7818F6E9B000A51752;
+			productRefGroup = 7D9EFF8218F6E9B000A51752 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7DD9650F18F6F791006529B0 /* Products */;
+					ProjectRef = 7DD9650E18F6F791006529B0 /* log.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7D9EFF8018F6E9B000A51752 /* log_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7DD9651318F6F791006529B0 /* liblog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblog.a;
+			remoteRef = 7DD9651218F6F791006529B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D9EFF7D18F6E9B000A51752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD9651818F6F819006529B0 /* log_test.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D9EFF8818F6E9B000A51752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D9EFF8918F6E9B000A51752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D9EFF8B18F6E9B000A51752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sunrui/Documents/Develop/Project/honeysense/wx.youmenu/log/build/xcode/log/build/Debug,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D9EFF8C18F6E9B000A51752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sunrui/Documents/Develop/Project/honeysense/wx.youmenu/log/build/xcode/log/build/Debug,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D9EFF7C18F6E9B000A51752 /* Build configuration list for PBXProject "log_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9EFF8818F6E9B000A51752 /* Debug */,
+				7D9EFF8918F6E9B000A51752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9EFF8A18F6E9B000A51752 /* Build configuration list for PBXNativeTarget "log_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9EFF8B18F6E9B000A51752 /* Debug */,
+				7D9EFF8C18F6E9B000A51752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D9EFF7918F6E9B000A51752 /* Project object */;
+}

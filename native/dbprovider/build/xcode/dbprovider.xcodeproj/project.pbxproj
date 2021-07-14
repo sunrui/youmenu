@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D02907018F9B8CB00B673B3 /* sqlite3secure.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D02906F18F9B8CB00B673B3 /* sqlite3secure.c */; };
+		7D74230A18F8DF2400888DB1 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7422FD18F8DF2400888DB1 /* sqlite3.h */; };
+		7D74230C18F8DF2400888DB1 /* db_provider.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D74230018F8DF2400888DB1 /* db_provider.c */; };
+		7D74230D18F8DF2400888DB1 /* db_provider_mysql.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D74230118F8DF2400888DB1 /* db_provider_mysql.c */; };
+		7D74230E18F8DF2400888DB1 /* db_provider_oracle.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D74230218F8DF2400888DB1 /* db_provider_oracle.c */; };
+		7D74230F18F8DF2400888DB1 /* db_provider_sqlite.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D74230318F8DF2400888DB1 /* db_provider_sqlite.c */; };
+		7D74231018F8DF2400888DB1 /* db_provider_type.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D74230418F8DF2400888DB1 /* db_provider_type.h */; };
+		7D74231118F8DF2400888DB1 /* db_provider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D74230618F8DF2400888DB1 /* db_provider.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D02906F18F9B8CB00B673B3 /* sqlite3secure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3secure.c; sourceTree = "<group>"; };
+		7D7422F218F8DF1100888DB1 /* libdbprovider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdbprovider.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7422FD18F8DF2400888DB1 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		7D74230018F8DF2400888DB1 /* db_provider.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = db_provider.c; sourceTree = "<group>"; };
+		7D74230118F8DF2400888DB1 /* db_provider_mysql.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = db_provider_mysql.c; sourceTree = "<group>"; };
+		7D74230218F8DF2400888DB1 /* db_provider_oracle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = db_provider_oracle.c; sourceTree = "<group>"; };
+		7D74230318F8DF2400888DB1 /* db_provider_sqlite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = db_provider_sqlite.c; sourceTree = "<group>"; };
+		7D74230418F8DF2400888DB1 /* db_provider_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = db_provider_type.h; sourceTree = "<group>"; };
+		7D74230618F8DF2400888DB1 /* db_provider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = db_provider.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D7422EF18F8DF1100888DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D7422E918F8DF1100888DB1 = {
+			isa = PBXGroup;
+			children = (
+				7D7422F918F8DF2400888DB1 /* 3rdparty */,
+				7D7422FF18F8DF2400888DB1 /* dbprovider */,
+				7D74230518F8DF2400888DB1 /* include */,
+				7D7422F318F8DF1100888DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D7422F318F8DF1100888DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D7422F218F8DF1100888DB1 /* libdbprovider.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D7422F918F8DF2400888DB1 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				7D7422FA18F8DF2400888DB1 /* sqlite3 */,
+			);
+			name = 3rdparty;
+			path = ../../3rdparty;
+			sourceTree = "<group>";
+		};
+		7D7422FA18F8DF2400888DB1 /* sqlite3 */ = {
+			isa = PBXGroup;
+			children = (
+				7D02906F18F9B8CB00B673B3 /* sqlite3secure.c */,
+				7D7422FD18F8DF2400888DB1 /* sqlite3.h */,
+			);
+			path = sqlite3;
+			sourceTree = "<group>";
+		};
+		7D7422FF18F8DF2400888DB1 /* dbprovider */ = {
+			isa = PBXGroup;
+			children = (
+				7D74230018F8DF2400888DB1 /* db_provider.c */,
+				7D74230118F8DF2400888DB1 /* db_provider_mysql.c */,
+				7D74230218F8DF2400888DB1 /* db_provider_oracle.c */,
+				7D74230318F8DF2400888DB1 /* db_provider_sqlite.c */,
+				7D74230418F8DF2400888DB1 /* db_provider_type.h */,
+			);
+			name = dbprovider;
+			path = ../../dbprovider;
+			sourceTree = "<group>";
+		};
+		7D74230518F8DF2400888DB1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7D74230618F8DF2400888DB1 /* db_provider.h */,
+			);
+			name = include;
+			path = ../../include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D7422F018F8DF1100888DB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D74231018F8DF2400888DB1 /* db_provider_type.h in Headers */,
+				7D74230A18F8DF2400888DB1 /* sqlite3.h in Headers */,
+				7D74231118F8DF2400888DB1 /* db_provider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D7422F118F8DF1100888DB1 /* dbprovider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7422F618F8DF1100888DB1 /* Build configuration list for PBXNativeTarget "dbprovider" */;
+			buildPhases = (
+				7D7422EE18F8DF1100888DB1 /* Sources */,
+				7D7422EF18F8DF1100888DB1 /* Frameworks */,
+				7D7422F018F8DF1100888DB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dbprovider;
+			productName = dbprovider;
+			productReference = 7D7422F218F8DF1100888DB1 /* libdbprovider.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D7422EA18F8DF1100888DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = www.honeysense.com;
+			};
+			buildConfigurationList = 7D7422ED18F8DF1100888DB1 /* Build configuration list for PBXProject "dbprovider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D7422E918F8DF1100888DB1;
+			productRefGroup = 7D7422F318F8DF1100888DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D7422F118F8DF1100888DB1 /* dbprovider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D7422EE18F8DF1100888DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D74230C18F8DF2400888DB1 /* db_provider.c in Sources */,
+				7D74230E18F8DF2400888DB1 /* db_provider_oracle.c in Sources */,
+				7D02907018F9B8CB00B673B3 /* sqlite3secure.c in Sources */,
+				7D74230F18F8DF2400888DB1 /* db_provider_sqlite.c in Sources */,
+				7D74230D18F8DF2400888DB1 /* db_provider_mysql.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D7422F418F8DF1100888DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D7422F518F8DF1100888DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D7422F718F8DF1100888DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					SQLITE_HAS_CODEC,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D7422F818F8DF1100888DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = SQLITE_HAS_CODEC;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = SQLITE_HAS_CODEC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D7422ED18F8DF1100888DB1 /* Build configuration list for PBXProject "dbprovider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7422F418F8DF1100888DB1 /* Debug */,
+				7D7422F518F8DF1100888DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7422F618F8DF1100888DB1 /* Build configuration list for PBXNativeTarget "dbprovider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7422F718F8DF1100888DB1 /* Debug */,
+				7D7422F818F8DF1100888DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D7422EA18F8DF1100888DB1 /* Project object */;
+}

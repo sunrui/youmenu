@@ -1,0 +1,11 @@
+prefix=/Users/sunrui/Documents/Develop/Project/honeysense/wx.youmenu/eventpack/3rdparty/openssl/out_osx
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 0.9.8y
+Requires: 
+Libs: -L${libdir} -lcrypto 
+Cflags: -I${includedir} 

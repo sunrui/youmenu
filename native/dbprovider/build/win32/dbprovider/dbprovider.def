@@ -1,0 +1,11 @@
+EXPORTS
+	dbp_init
+	dbp_clean
+	dbp_test_connect
+	dbp_create_new
+	dbp_query
+	dbp_num_fields
+	dbp_fetch_row
+	dbp_fetch_row_free
+	dbp_error
+	dbp_free
